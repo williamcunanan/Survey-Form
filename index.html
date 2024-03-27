@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Survey</title>
+    <body style="font-family: sans-serif">
+<h1 id="title"> NewJeans Survey Form</h1>
+<b><p id="description">This is for NewJeans fans! If you like NewJeans answer this!</p></b>>
+<form id="survey-form">
+	<div class="form-input">
+		<label id="name-label">
+			<b>Name</b>
+			<input  placeholder="name" id="name" type="text" required>
+		</label>
+	</div>
+    <div class="form-input"> 
+		<label id="email-label">
+			<b>Email</b>
+			<input placeholder="email" id="email" type="email" required>
+		</label>
+	</div> 
+    <div class="form-input">
+		<label id="number-label">
+			<b>Age</b>
+			<input placeholder="number" id="number" min="10" max="100" type="number" required>
+		</label>
+	</div>
+    <hr>
+    <div class="form-input">
+		<label id="age-label">
+        <b>Who is your favorite NewJeans member!</b>		
+    </label>
+        <select id="dropdown">
+         <option>Hanni</option>
+         <option>Danielle</option>     
+         <option>Haerin</option> 
+         <option>Minji</option> 
+         <option>Hyein</option> 
+         <option></option>     
+        </select>
+	</div>
+    <hr>
+    <div>
+        <div class="form-input">
+            <b><label>Have you been in a NewJeans concert/performance live?</label></b>
+            <div>
+                <label><input type="radio" name="concert" value="yes"/>Yes!!</label>
+            </div>
+            <div>
+                <label><input type="radio" name="concert" value="no"/>Not yet *sad face*</label>
+            </div>
+                <hr>
+        </div>
+    <div class="form-input">     
+        <div >
+            <b><label>What is your NewJeans release faves!</label></b>
+        </div>
+        <div >
+            <label><input type="checkbox" name="song" value="attention">Attention</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="hypeboy">Hype Boy</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="cookie">Cookie</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="hurt">Hurt</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="ditto">Ditto</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="omg">OMG</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="tellme">Tell Me</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="zero">Zero</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="bwya">Be Who You Are</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="supershy">Super Shy</label>
+        </div> 
+        <div>
+            <label><input type="checkbox" name="song" value="newjeanssong">New Jeans</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="eta">ETA</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="coolwithyou">Cool With You</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="getup">Get Up</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="song" value="asap">ASAP</label>
+        </div>
+    </div>    
+<hr>
+    <div class="form-input">
+        <b><label>Additional Comments about NewJeans? Write here!</label></b>
+     </div>
+     <div><textarea placeholder="Enter your comment here..." type="text"></textarea></div>
+     
+     <div>
+        <button type="submit" id="submit">
+            Submit
+    </button>
+     </div>
+
+     <style>
+body {
+text-align: center;
+background-image: 
+        linear-gradient(rgba(40, 121, 175, 0.5), rgba(90, 145, 177, 0.5), rgba(126, 251, 255, 0.5)),
+        url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e6a79513-1097-451f-8d09-1c056b94841f/dfp5dg0-f7c86f09-5847-4190-adeb-cc5f90d5e407.png/v1/fill/w_1192,h_670,q_70,strp/newjeans_wallpaper_concept_by_sosweet12_dfp5dg0-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZTZhNzk1MTMtMTA5Ny00NTFmLThkMDktMWMwNTZiOTQ4NDFmXC9kZnA1ZGcwLWY3Yzg2ZjA5LTU4NDctNDE5MC1hZGViLWNjNWY5MGQ1ZTQwNy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.v4yDkLRhK-HbeloTHly-SZvV9SxisqUJsIKdUAJs0rw");
+        background-size: cover;
+        background-position: center;
+}
+h1 {
+    color:white;
+    text-shadow: 2px 4px 4px rgba(29, 84, 185, 0.6)
+}
+p {
+    color:white;
+}
+form {
+    color:white;
+    margin: auto;
+    max-width:500px;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-bottom: 60px;
+    background-image: linear-gradient(#2386a7, #20b9b9,#2386a7 );
+}
+.form-input {
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+}
+input {
+    padding: 5px;
+    border:none;
+    border-radius: 5px;
+
+}
+select {
+    padding: 5px;
+    border:none;
+    border-radius: 5px;
+}
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+textarea {
+    padding-bottom: 70px;
+    height: 100%;
+    width: 100%;
+}
+@media screen and (min-width: 768px) {
+    form {
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    form {
+        max-width: 750px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    form {
+        max-width: 900px;
+    }
+}
+     </style>
+</form>
+</body>
+</html>
